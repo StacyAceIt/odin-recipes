@@ -4,4 +4,3 @@ This odin-recipe project is created for the Foundation course of Odin Project.
 
 It displays an index page with links to several recipes. I'll learn basic HTML through this project.
 
-Experiment with commit message
