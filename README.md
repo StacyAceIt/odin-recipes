@@ -4,3 +4,15 @@ This odin-recipe project is created for the Foundation course of Odin Project.
 
 It displays an index page with links to several recipes. I'll learn basic HTML through this project.
 
+odin-recipes
+├── README.md
+├── img
+│   ├── All recipes.png
+│   ├── kefir.png
+│   ├── kimchi.png
+│   └── sauerkraut.png
+├── index.html
+└── recipes
+    ├── kefir.html
+    ├── kimchi.html
+    └── sauerkraut.html
