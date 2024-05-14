@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .content-container {
+          width: 800px;  
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column; /* Ensures that the children are stacked vertically */
+          align-items: center; /* Centers the items horizontally */
+        }
+        img {
+          max-width: 80%; /* Makes the image responsive */
+          height: auto; /* Maintains the aspect ratio */
+        }
+        body {
+            font-family: 'Fantasy', Papyrus;
+        }
+        @media (max-width: 600px) {
+            .content-container {
+                width: 95%; /* Adjusts the width for smaller screens */
+            }
+            img {
+                max-width: 80%; /* Adjusts image size for smaller screens */
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kefir</title>
+</head>
+<body>
+    <div class="content-container">
+        <h1>Kefir</h1>
+
+        <img src="../img/kefir.png"alt="kefir">
+        <h2>Ingredients</h2>
+        <ul>
+            <strong>
+                <li>2 cups of milk (dairy or non-dairy)</li>
+                <li>1 tablespoon of kefir grains</li>
+            </strong>
+        </ul>
+
+        <h2>Recipe Instructions</h2>
+        <ol>
+            <strong>
+                <li>Pour the milk into a clean glass jar.</li>
+                <li>Add the kefir grains to the milk.</li>
+                <li>Cover the jar with a cloth or coffee filter and secure it with a rubber band.</li>
+                <li>Let the mixture sit at room temperature for 24-48 hours, stirring occasionally.</li>
+                <li>Once the milk has thickened and tastes tangy, strain the kefir into another clean jar, using a non-metal strainer to catch the kefir grains.</li>
+                <li>Store the strained kefir in the refrigerator and enjoy within a week.</li>
+                <li>Use the kefir grains to start a new batch by repeating the process.</li>
+            </strong>
+
+        </ol>
+
+        <a href="./sauerkraut.html">Next Recipe: Sauerkraut</a>
+        <a href="./kimchi.html">Previous Recipe: Kimchi</a>
+        <a href="../index.html">Home</a>
+    </div>
+</body>
+</html>

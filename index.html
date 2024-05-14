@@ -16,26 +16,36 @@
         body {
             font-family: 'Fantasy', Papyrus;
         }
+        @media (max-width: 600px) {
+            .content-container {
+                width: 95%; /* Adjusts the width for smaller screens */
+            }
+            img {
+                max-width: 100%; /* Adjusts image size for smaller screens */
+            }
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homemade Sauerkraut</title>
+    <title>Odin Recipes</title>
 </head>
 <body>
     <div class="content-container">
-        <h1>Homemade Sauerkraut</h1>
+        <h1>Odin Recipes</h1>
         <h3>
-            Click here to learn more about
-            <a href="https://www.seriouseats.com/homemade-fermented-sauerkraut-recipe">
-                Science behind Homemade Sauerkraut
-            </a>
+            Fermentation is an age-old process that transforms simple ingredients into probiotic-rich superfoods. Not only do these foods taste amazing, but they also offer numerous health benefits. Let's dive into the benefits of our featured fermented favorites: sauerkraut, kefir, and kimchi.
         </h3>
-        <h3>ldquo&ldquo;</h3>
+        <img src="./img/All recipes.png" alt="Fermentation family">
+        <h2>
+            <ul>
+                <li><a href="./recipes/sauerkraut.html">Sauerkraut</a></li>
+                <li><a href="./recipes/kefir.html">Kefir</a></li>
+                <li><a href="./recipes/kimchi.html">Kimchi</a></li>
+            </ul>
 
-        <h2>Hey hot summer! Feeling the heat?  How about we ditch the processed snacks and whip up a batch of something delicious and refreshing?  Sauerkraut!</h2>
-        <img src="./img/chopping.png" alt="chopping" ><br>
-        <img src="./img/sauerkraut.png"alt="sauerkraut">
+        </h2>
+        
+        
     </div>
-    <script src="script.js"></script>
 </body>
 </html>

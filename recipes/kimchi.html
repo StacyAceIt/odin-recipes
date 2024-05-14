@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .content-container {
+          width: 800px;  
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column; /* Ensures that the children are stacked vertically */
+          align-items: center; /* Centers the items horizontally */
+        }
+        img {
+          max-width: 80%; /* Makes the image responsive */
+          height: auto; /* Maintains the aspect ratio */
+        }
+        body {
+            font-family: 'Fantasy', Papyrus;
+        }
+        @media (max-width: 600px) {
+            .content-container {
+                width: 95%; /* Adjusts the width for smaller screens */
+            }
+            img {
+                max-width: 100%; /* Adjusts image size for smaller screens */
+            }
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimchi</title>
+</head>
+<body>
+    <div class="content-container">
+        <h1>Kimchi</h1>
+
+        <img src="../img/kimchi.png" alt="kimchi">
+        <h2>
+            Craving Authentic Kimchi? Make it Yourself!
+        </h2>
+        <h3>
+            Tired of store-bought kimchi that lacks flavor and punch? Unleash the vibrant taste of homemade kimchi with our easy-to-follow recipe! ️
+        </h3>
+        
+        <h2>
+            Ingredients
+        </h2>
+        <ul>
+            <strong>
+                <li>
+                    Napa cabbage (baechu)
+                </li>
+                <li>
+                    Korean radish (daikon)
+                </li>
+                <li>
+                    Gochugaru (Korean chili flakes) 
+                </li>
+                <li>
+                    Garlic
+                </li>
+                <li>
+                    Ginger
+                </li>
+                <li>
+                    Sea salt
+                </li>
+                <li>
+                    Fish sauce
+                </li>
+            </strong>
+        </ul>
+        <h2>
+            Recipe Instructions
+        </h2>
+        <ol>
+            <strong>
+                <li>
+                    Prepare the Napa Cabbage
+                </li>
+                <li>
+                    Make the Kimchi Paste
+                </li>
+                <li>
+                    Assemble the Kimchi
+                </li>
+                <li>
+                    Ferment the Kimchi
+                </li>
+                <li>
+                    Refrigerate and Enjoy
+                </li>
+            </strong>
+        </ol>
+        <a href="./kefir.html">Next Recipe: Kefir</a>
+        <a href="./sauerkraut.html">Previous Recipe: Sauerkraut</a>
+        <a href="../index.html">Home</a>
+    </div>
+</body>
+</html>
